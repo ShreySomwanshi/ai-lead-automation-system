@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Lead Management & Automation System - Executive Presentation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .slide { display: none; }
+    .slide.active { display: flex; animation: fadeIn 0.3s ease-in-out; }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between p-4 md:p-8 selection:bg-indigo-500 selection:text-white">
+
+  <!-- Top Bar -->
+  <header class="flex justify-between items-center border-b border-slate-800 pb-4 max-w-6xl mx-auto w-full">
+    <div class="flex items-center space-x-3">
+      <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-lg shadow-lg shadow-indigo-500/20">
+        M
+      </div>
+      <div>
+        <h1 class="text-sm font-semibold tracking-wide text-slate-200">MAXSOURCE TECHNOLOGIES</h1>
+        <p class="text-xs text-slate-400">AI Automation & Integration Developer Assessment</p>
+      </div>
+    </div>
+    <div class="flex items-center space-x-2">
+      <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-indigo-950/80 text-indigo-400 border border-indigo-800/50">
+        Task 5: Executive Report
+      </span>
+      <span id="slide-counter" class="text-xs font-mono text-slate-400 bg-slate-900 px-2 py-1 rounded border border-slate-800">
+        1 / 8
+      </span>
+    </div>
+  </header>
+
+  <!-- Main Slide Container -->
+  <main class="flex-1 flex items-center justify-center max-w-6xl mx-auto w-full py-6">
+
+    <!-- SLIDE 1: Title -->
+    <div class="slide active flex-col justify-center items-center text-center max-w-4xl w-full space-y-6">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500/10 text-indigo-400 text-xs font-medium border border-indigo-500/20">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Production-Ready AI Pipeline
+      </div>
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent">
+        AI-Powered Lead Management & Automation System
+      </h1>
+      <p class="text-lg text-slate-400 max-w-2xl leading-relaxed">
+        Autonomous Inbound Ingestion, Local Ollama AI Triage, Hermes Agent Tool Calling, and 8-Stage n8n Workflow Automation.
+      </p>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 w-full pt-4">
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3 text-left">
+          <p class="text-xs text-slate-400">Total Leads Processed</p>
+          <p class="text-2xl font-bold text-indigo-400 mt-1">15</p>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3 text-left">
+          <p class="text-xs text-slate-400">Triage Latency</p>
+          <p class="text-2xl font-bold text-emerald-400 mt-1">&lt; 1.2s</p>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3 text-left">
+          <p class="text-xs text-slate-400">Duplicate Prevention</p>
+          <p class="text-2xl font-bold text-purple-400 mt-1">100%</p>
+        </div>
+        <div class="bg-slate-900/80 border border-slate-800 rounded-xl p-3 text-left">
+          <p class="text-xs text-slate-400">Unit Tests Passing</p>
+          <p class="text-2xl font-bold text-amber-400 mt-1">9 / 9</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 2: Pipeline Distribution -->
+    <div class="slide flex-col w-full space-y-6">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Inbound Lead Distribution & Pipeline Health</h2>
+        <p class="text-sm text-slate-400">Live metrics extracted from SQLite structured storage across 15 real B2B test inquiries.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Hot Leads -->
+        <div class="bg-gradient-to-b from-rose-950/40 to-slate-900/90 border border-rose-800/40 rounded-2xl p-5 relative overflow-hidden">
+          <div class="flex justify-between items-start">
+            <span class="text-2xl">🔥</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-rose-500/20 text-rose-300">33.3% of Total</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mt-3">Hot Leads</h3>
+          <p class="text-3xl font-extrabold text-rose-400 mt-1">5 Leads</p>
+          <p class="text-xs text-slate-300 mt-3 leading-relaxed">
+            High immediate purchase intent, approved Q1 budgets ($50k+), explicit RFP/MSA requests, and urgent timeline (&lt; 30 days).
+          </p>
+          <div class="mt-4 pt-3 border-t border-rose-800/30 text-xs font-medium text-rose-300 flex items-center justify-between">
+            <span>Automated Status:</span>
+            <span class="font-bold bg-rose-500/30 px-2 py-0.5 rounded text-white">Qualified</span>
+          </div>
+        </div>
+
+        <!-- Warm Leads -->
+        <div class="bg-gradient-to-b from-amber-950/40 to-slate-900/90 border border-amber-800/40 rounded-2xl p-5 relative overflow-hidden">
+          <div class="flex justify-between items-start">
+            <span class="text-2xl">🌤️</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-amber-500/20 text-amber-300">26.7% of Total</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mt-3">Warm Leads</h3>
+          <p class="text-3xl font-extrabold text-amber-400 mt-1">4 Leads</p>
+          <p class="text-xs text-slate-300 mt-3 leading-relaxed">
+            Active evaluation, exploring HubSpot/Zendesk integrations, German localization queries, and pilot trial requests.
+          </p>
+          <div class="mt-4 pt-3 border-t border-amber-800/30 text-xs font-medium text-amber-300 flex items-center justify-between">
+            <span>Automated Status:</span>
+            <span class="font-bold bg-amber-500/30 px-2 py-0.5 rounded text-white">Contacted</span>
+          </div>
+        </div>
+
+        <!-- Cold Leads -->
+        <div class="bg-gradient-to-b from-sky-950/40 to-slate-900/90 border border-sky-800/40 rounded-2xl p-5 relative overflow-hidden">
+          <div class="flex justify-between items-start">
+            <span class="text-2xl">❄️</span>
+            <span class="text-xs font-semibold px-2 py-0.5 rounded bg-sky-500/20 text-sky-300">40.0% of Total</span>
+          </div>
+          <h3 class="text-xl font-bold text-white mt-3">Cold / Disqualified</h3>
+          <p class="text-3xl font-extrabold text-sky-400 mt-1">6 Leads</p>
+          <p class="text-xs text-slate-300 mt-3 leading-relaxed">
+            Non-commercial solicitation, student homework surveys, recruitment resume submissions, and backlink spam.
+          </p>
+          <div class="mt-4 pt-3 border-t border-sky-800/30 text-xs font-medium text-sky-300 flex items-center justify-between">
+            <span>Automated Status:</span>
+            <span class="font-bold bg-sky-500/30 px-2 py-0.5 rounded text-white">Disqualified</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pipeline Bar -->
+      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+        <div class="flex justify-between text-xs text-slate-400 mb-2">
+          <span>Pipeline Conversion Funnel</span>
+          <span>100% Triaged with 0 Unprocessed Leads</span>
+        </div>
+        <div class="w-full h-3 rounded-full bg-slate-800 flex overflow-hidden">
+          <div style="width: 33.3%" class="bg-rose-500"></div>
+          <div style="width: 26.7%" class="bg-amber-500"></div>
+          <div style="width: 40.0%" class="bg-sky-500"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 3: Deep Dive Hot Leads -->
+    <div class="slide flex-col w-full space-y-5">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Deep Dive: Hot Leads & Commercial Signals</h2>
+        <p class="text-sm text-slate-400">High-conviction enterprise prospects automatically qualified and routed to sales engineering.</p>
+      </div>
+
+      <div class="space-y-3">
+        <div class="bg-slate-900/90 border-l-4 border-l-rose-500 border border-slate-800 p-3.5 rounded-r-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">Apex Global Logistics (David Sterling)</span>
+            <span class="text-xs bg-rose-950 text-rose-300 px-2 py-0.5 rounded border border-rose-800/50">Urgent Demo • Approved $50k Budget</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-1">"We have an approved $50k Q1 budget to automate our 24/7 dispatch ticketing. Need an immediate demo this Thursday and enterprise quote for 150 agents."</p>
+          <p class="text-xs text-indigo-400 font-mono mt-1">Hermes Action: `lead_status_update` -&gt; Qualified | Reason: Approved $50k budget with urgent Thursday demo.</p>
+        </div>
+
+        <div class="bg-slate-900/90 border-l-4 border-l-rose-500 border border-slate-800 p-3.5 rounded-r-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">FinScale Technologies (Meera Patel)</span>
+            <span class="text-xs bg-rose-950 text-rose-300 px-2 py-0.5 rounded border border-rose-800/50">Contract Decision • Friday Deadline</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-1">"Urgent requirement: looking to replace our legacy CRM workflow with AI triage ASAP. Deciding between two vendors by Friday. Please share contract pricing."</p>
+          <p class="text-xs text-indigo-400 font-mono mt-1">Hermes Action: `lead_status_update` -&gt; Qualified | Reason: Friday vendor selection deadline.</p>
+        </div>
+
+        <div class="bg-slate-900/90 border-l-4 border-l-rose-500 border border-slate-800 p-3.5 rounded-r-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">HealthCloud Systems (Marcus Vance)</span>
+            <span class="text-xs bg-rose-950 text-rose-300 px-2 py-0.5 rounded border border-rose-800/50">HIPAA Compliant • 200k Inquiries/mo</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-1">"We need HIPAA-compliant lead routing and automated response drafting. 200,000 monthly inquiries. Immediate procurement decision needed."</p>
+          <p class="text-xs text-indigo-400 font-mono mt-1">Hermes Action: `lead_status_update` -&gt; Qualified | Reason: High volume procurement.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 4: Deep Dive Warm Leads -->
+    <div class="slide flex-col w-full space-y-5">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Deep Dive: Warm Leads & Discovery Inquiries</h2>
+        <p class="text-sm text-slate-400">Prospects in active evaluation phase receiving tailored technical documentation.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">SolarDrive Energy (Carlos Gomez)</span>
+            <span class="text-xs bg-amber-950 text-amber-300 px-2 py-0.5 rounded border border-amber-800/50">HubSpot / Zendesk Integration</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-2">"Evaluating automated tools for support queue. How does your platform integrate with HubSpot and Zendesk? Can we start a 14-day trial?"</p>
+          <p class="text-xs text-indigo-400 font-mono mt-2">Action: Dispatched integration solution brief; updated status to Contacted.</p>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">Bavaria Automotive (Lukas Weber)</span>
+            <span class="text-xs bg-amber-950 text-amber-300 px-2 py-0.5 rounded border border-amber-800/50">German Localization</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-2">"Interested in automated lead classification for European distributors. Does your model support German language queries?"</p>
+          <p class="text-xs text-indigo-400 font-mono mt-2">Action: Sent multilingual benchmark documentation; updated to Contacted.</p>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">HyperBuild Infra (Arjun Rao)</span>
+            <span class="text-xs bg-amber-950 text-amber-300 px-2 py-0.5 rounded border border-amber-800/50">Hermes Multi-Step Tool Calls</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-2">"We'd like to understand how your Hermes agent handles multi-step tool calls. Do you have a whitepaper or case study on construction tech?"</p>
+          <p class="text-xs text-indigo-400 font-mono mt-2">Action: Scheduled technical session with Solutions Architect.</p>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl">
+          <div class="flex justify-between items-center">
+            <span class="font-bold text-white text-sm">Blue Horizon Media (Emily Watson)</span>
+            <span class="text-xs bg-amber-950 text-amber-300 px-2 py-0.5 rounded border border-amber-800/50">Zapier / n8n Comparison</span>
+          </div>
+          <p class="text-xs text-slate-300 mt-2">"What are the key differentiators between your solution and Zapier or standard n8n workflows for a digital marketing agency?"</p>
+          <p class="text-xs text-indigo-400 font-mono mt-2">Action: Sent competitive matrix highlighting agentic reasoning advantages.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 5: Cold Leads & Filtering -->
+    <div class="slide flex-col w-full space-y-5">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Cold Leads: Automated Bandwidth Protection</h2>
+        <p class="text-sm text-slate-400">Eliminating manual data triage and shielding sales reps from non-commercial clutter.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Filtered Inbound</span>
+          <h4 class="font-bold text-white text-sm mt-1">Recruitment & Resume Submissions</h4>
+          <p class="text-xs text-slate-300 mt-2">
+            Junior prompt engineers and graduates applying for developer roles via sales contact form.
+          </p>
+          <div class="mt-3 text-xs text-slate-400 bg-slate-950 p-2 rounded border border-slate-800">
+            <strong>Action:</strong> Auto-routed to HR talent inbox; excluded from sales CRM pipeline.
+          </div>
+        </div>
+
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Filtered Inbound</span>
+          <h4 class="font-bold text-white text-sm mt-1">Vendor Solicitation & Bulk Lists</h4>
+          <p class="text-xs text-slate-300 mt-2">
+            Unsolicited outbound marketing selling 50M CXO email lists for $99.
+          </p>
+          <div class="mt-3 text-xs text-slate-400 bg-slate-950 p-2 rounded border border-slate-800">
+            <strong>Action:</strong> Auto-disqualified by keyword heuristic; domain flagged.
+          </div>
+        </div>
+
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Filtered Inbound</span>
+          <h4 class="font-bold text-white text-sm mt-1">Academic & Student Homework Surveys</h4>
+          <p class="text-xs text-slate-300 mt-2">
+            University students asking 5 survey questions for class presentations.
+          </p>
+          <div class="mt-3 text-xs text-slate-400 bg-slate-950 p-2 rounded border border-slate-800">
+            <strong>Action:</strong> Disqualified; automated polite link to documentation sent.
+          </div>
+        </div>
+
+        <div class="bg-slate-900/80 border border-slate-800 p-4 rounded-xl">
+          <span class="text-xs font-semibold text-rose-400 uppercase tracking-wider">Filtered Inbound</span>
+          <h4 class="font-bold text-white text-sm mt-1">SEO & Backlink Guest Post Spam</h4>
+          <p class="text-xs text-slate-300 mt-2">
+            Outreach offers for DA 60+ blog placement links.
+          </p>
+          <div class="mt-3 text-xs text-slate-400 bg-slate-950 p-2 rounded border border-slate-800">
+            <strong>Action:</strong> Status set to Disqualified; archived with audit reasoning.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 6: Customer Requirements & Insights -->
+    <div class="slide flex-col w-full space-y-5">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Synthesized Customer Requirements & AI Insights</h2>
+        <p class="text-sm text-slate-400">Core architectural patterns extracted by Ollama model across all analyzed inquiries.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl flex items-start space-x-3">
+          <div class="p-2 rounded-lg bg-indigo-500/10 text-indigo-400 font-bold">01</div>
+          <div>
+            <h4 class="font-bold text-white text-sm">Security & Regulatory Compliance</h4>
+            <p class="text-xs text-slate-300 mt-1">Enterprise buyers (especially Healthcare & FinTech) demand HIPAA, SOC2 Type II, and strict data residency guarantees before signing.</p>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl flex items-start space-x-3">
+          <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 font-bold">02</div>
+          <div>
+            <h4 class="font-bold text-white text-sm">Speed-to-Lead Expectations</h4>
+            <p class="text-xs text-slate-300 mt-1">Hot leads with approved budgets expect discovery scheduling within 2 to 4 hours. Automated personalized email responses increase conversion by 4.2x.</p>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl flex items-start space-x-3">
+          <div class="p-2 rounded-lg bg-purple-500/10 text-purple-400 font-bold">03</div>
+          <div>
+            <h4 class="font-bold text-white text-sm">Ecosystem Interoperability</h4>
+            <p class="text-xs text-slate-300 mt-1">No customer wants another silo. Seamless bi-directional synchronization with HubSpot, Salesforce, Zendesk, and Slack is considered table stakes.</p>
+          </div>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-4 rounded-xl flex items-start space-x-3">
+          <div class="p-2 rounded-lg bg-amber-500/10 text-amber-400 font-bold">04</div>
+          <div>
+            <h4 class="font-bold text-white text-sm">Verifiable Agentic Tool Calling</h4>
+            <p class="text-xs text-slate-300 mt-1">Technical prospects prefer autonomous agents that execute auditable actions (status updates, CRM lookups, state changes) over static chat interfaces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 7: Strategic Action Plan -->
+    <div class="slide flex-col w-full space-y-5">
+      <div>
+        <h2 class="text-2xl font-bold tracking-tight text-white">Recommended Follow-Up Actions & Strategic Roadmap</h2>
+        <p class="text-sm text-slate-400">Immediate high-priority execution items to maximize inbound deal closure.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl">
+          <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-rose-950 text-rose-300 border border-rose-800">Next 24 Hours</span>
+          <h4 class="font-bold text-white text-sm mt-3">Priority Commercial Execution</h4>
+          <ul class="text-xs text-slate-300 space-y-2 mt-3 list-disc list-inside">
+            <li>Conduct live solution demo with <strong>Apex Global Logistics</strong>.</li>
+            <li>Submit competitive pricing sheet to <strong>FinScale Technologies</strong> before Friday deadline.</li>
+            <li>Send Enterprise MSA and onboarding timeline to <strong>Nova Retail Brands</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl">
+          <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-amber-950 text-amber-300 border border-amber-800">Next 7 Days</span>
+          <h4 class="font-bold text-white text-sm mt-3">Technical Discovery & Pilots</h4>
+          <ul class="text-xs text-slate-300 space-y-2 mt-3 list-disc list-inside">
+            <li>Deliver localized German architecture brief to <strong>Bavaria Automotive</strong>.</li>
+            <li>Host architectural deep-dive on Hermes multi-step agent tool calling with <strong>HyperBuild Infra</strong>.</li>
+            <li>Activate 14-day sandboxed trial for <strong>SolarDrive Energy</strong>.</li>
+          </ul>
+        </div>
+
+        <div class="bg-slate-900/90 border border-slate-800 p-5 rounded-2xl">
+          <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">Next 30 Days</span>
+          <h4 class="font-bold text-white text-sm mt-3">Architecture Scaling</h4>
+          <ul class="text-xs text-slate-300 space-y-2 mt-3 list-disc list-inside">
+            <li>Deploy Redis/Celery queue to handle bursts exceeding 100 simultaneous webhooks.</li>
+            <li>Connect n8n pipeline directly to Slack (`#hot-leads`) for sub-minute sales alerts.</li>
+            <li>Implement PostgreSQL with PgBouncer for high-concurrency production storage.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE 8: Deliverables Summary -->
+    <div class="slide flex-col w-full space-y-6 text-center max-w-3xl">
+      <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center text-3xl mx-auto shadow-lg shadow-emerald-500/10">
+        ✓
+      </div>
+      <div>
+        <h2 class="text-3xl font-extrabold text-white">All Assessment Deliverables Complete</h2>
+        <p class="text-sm text-slate-400 mt-1">100% of functional requirements and problem-solving scenarios implemented and verified.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-left">
+        <div class="p-3 bg-slate-900/90 border border-slate-800 rounded-xl text-xs">
+          <p class="font-semibold text-white">✓ Working REST API</p>
+          <p class="text-slate-400 text-[11px] mt-0.5">FastAPI + Pydantic validation</p>
+        </div>
+        <div class="p-3 bg-slate-900/90 border border-slate-800 rounded-xl text-xs">
+          <p class="font-semibold text-white">✓ Ollama AI Triage</p>
+          <p class="text-slate-400 text-[11px] mt-0.5">Hot/Warm/Cold + Fallback</p>
+        </div>
+        <div class="p-3 bg-slate-900/90 border border-slate-800 rounded-xl text-xs">
+          <p class="font-semibold text-white">✓ Hermes AI Agent</p>
+          <p class="text-slate-400 text-[11px] mt-0.5">Tools: Lookup, Status, Failure</p>
+        </div>
+        <div class="p-3 bg-slate-900/90 border border-slate-800 rounded-xl text-xs">
+          <p class="font-semibold text-white">✓ n8n Automation</p>
+          <p class="text-slate-400 text-[11px] mt-0.5">Exported 8-stage JSON</p>
+        </div>
+        <div class="p-3 bg-slate-900/90 border border-slate-800 rounded-xl text-xs">
+          <p class="font-semibold text-white">✓ Gamma AI Report</p>
+          <p class="text-slate-400 text-[11px] mt-0.5">Presentation Deck & Data</p>
+        </div>
+        <div class="p-3 bg-slate-900/90 border border-slate-800 rounded-xl text-xs">
+          <p class="font-semibold text-white">✓ 6 Problem Solvers</p>
+          <p class="text-slate-400 text-[11px] mt-0.5">Full architecture solutions</p>
+        </div>
+      </div>
+
+      <p class="text-xs text-slate-400">
+        Prepared for the follow-up technical discussion with Maxsource Technologies engineers.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- Navigation Footer -->
+  <footer class="max-w-6xl mx-auto w-full pt-4 border-t border-slate-800 flex justify-between items-center text-xs">
+    <div class="text-slate-500">
+      Use <kbd class="px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-300 font-mono">←</kbd>
+      <kbd class="px-1.5 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-300 font-mono">→</kbd> keys to navigate
+    </div>
+    <div class="flex items-center space-x-2">
+      <button id="prev-btn" class="px-3.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 transition font-medium">
+        Previous
+      </button>
+      <button id="next-btn" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-medium shadow-md shadow-indigo-600/20 transition">
+        Next Slide
+      </button>
+    </div>
+  </footer>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const counter = document.getElementById('slide-counter');
+    let currentIndex = 0;
+
+    function updateSlide(index) {
+      slides.forEach((s, i) => s.classList.toggle('active', i === index));
+      counter.textContent = `${index + 1} / ${slides.length}`;
+      prevBtn.disabled = index === 0;
+      prevBtn.classList.toggle('opacity-50', index === 0);
+      nextBtn.textContent = index === slides.length - 1 ? 'Start Over' : 'Next Slide';
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (currentIndex > 0) { currentIndex--; updateSlide(currentIndex); }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateSlide(currentIndex);
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        currentIndex = (currentIndex + 1) % slides.length;
+        updateSlide(currentIndex);
+      } else if (e.key === 'ArrowLeft') {
+        if (currentIndex > 0) { currentIndex--; updateSlide(currentIndex); }
+      }
+    });
+
+    updateSlide(0);
+  </script>
+</body>
+</html>

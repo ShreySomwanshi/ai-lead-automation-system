@@ -1,0 +1,16 @@
+# Core REST API Framework
+fastapi>=0.110.0
+uvicorn>=0.28.0
+aiohttp>=3.9.0
+
+# Data Validation & ORM
+pydantic>=2.6.0
+sqlalchemy>=2.0.25
+
+# HTTP Client & Resilience
+httpx>=0.27.0
+requests>=2.31.0
+tenacity>=8.2.3
+
+# Optional: Testing & Formatting
+pytest>=8.0.0

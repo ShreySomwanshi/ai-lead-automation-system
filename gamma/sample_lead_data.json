@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "name": "David Sterling",
+    "email": "dsterling@apexlogistics.com",
+    "phone_number": "+1-212-555-0143",
+    "company": "Apex Global Logistics",
+    "message": "We have an approved $50k Q1 budget to automate our 24/7 dispatch ticketing. Need an immediate demo this Thursday and enterprise quote for 150 agents.",
+    "classification": "Hot Lead",
+    "confidence_score": 0.92,
+    "business_intent": "Apex Global Logistics has high immediate purchase intent and requires priority sales contact for pricing or demo.",
+    "extracted_requirements": [
+      "Inquired about quote",
+      "Inquired about demo",
+      "Inquired about budget"
+    ],
+    "ai_response": "Hello David Sterling,\n\nThank you for reaching out to us regarding Apex Global Logistics's requirements. We would be delighted to demonstrate our platform and discuss tailored enterprise options for your team. Could you please share your availability for a brief 15-minute discovery session this week?\n\nBest regards,\nSales Engineering Team",
+    "status": "Qualified",
+    "created_at": "2026-11-17T10:25:16.902058",
+    "updated_at": "2026-11-17T10:25:17.082274"
+  },
+  {
+    "id": 2,
+    "name": "Meera Patel",
+    "email": "meera.patel@finscale.io",
+    "phone_number": "+44-20-7946-0912",
+    "company": "FinScale Technologies",
+    "message": "Urgent requirement: looking to replace our legacy CRM workflow with AI triage ASAP. We are deciding between two vendors by Friday. Please share contract pricing.",
+    "classification": "Hot Lead",
+    "confidence_score": 0.92,
+    "business_intent": "FinScale Technologies has high immediate purchase intent and requires priority sales contact for pricing or demo.",
+    "extracted_requirements": [
+      "Inquired about urgent",
+      "Inquired about contract",
+      "Inquired about asap",
+      "Technical interest in pricing"
+    ],
+    "ai_response": "Hello Meera Patel,\n\nThank you for reaching out to us regarding FinScale Technologies's requirements. We would be delighted to demonstrate our platform and discuss tailored enterprise options for your team. Could you please share your availability for a brief 15-minute discovery session this week?\n\nBest regards,\nSales Engineering Team",
+    "status": "Qualified",
+    "created_at": "2026-11-17T10:25:17.120394",
+    "updated_at": "2026-11-17T10:25:17.143067"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Vance",
+    "email": "mvance@healthcloud.org",
+    "phone_number": "+1-415-555-8821",
+    "company": "HealthCloud Systems",
+    "message": "We need HIPAA-compliant lead routing and automated response drafting. 200,000 monthly inquiries. Immediate procurement decision needed.",
+    "classification": "Hot Lead",
+    "confidence_score": 0.92,
+    "business_intent": "HealthCloud Systems has high immediate purchase intent and requires priority sales contact for pricing or demo.",
+    "extracted_requirements": [
+      "Inquired about procurement"
+    ],
+    "ai_response": "Hello Marcus Vance,\n\nThank you for reaching out to us regarding HealthCloud Systems's requirements. We would be delighted to demonstrate our platform and discuss tailored enterprise options for your team. Could you please share your availability for a brief 15-minute discovery session this week?\n\nBest regards,\nSales Engineering Team",
+    "status": "Qualified",
+    "created_at": "2026-11-17T10:25:17.162088",
+    "updated_at": "2026-11-17T10:25:17.183242"
+  },
+  {
+    "id": 4,
+    "name": "Sophia Chen",
+    "email": "sophia.chen@novaretail.com",
+    "phone_number": "+1-312-555-6677",
+    "company": "Nova Retail Brands",
+    "message": "Ready to buy. Our VP of Sales approved the onboarding. Can you send the master service agreement and schedule implementation kickoff next week?",
+    "classification": "Hot Lead",
+    "confidence_score": 0.92,
+    "business_intent": "Nova Retail Brands has high immediate purchase intent and requires priority sales contact for pricing or demo.",
+    "extracted_requirements": [
+      "Inquired about buy",
+      "Inquired about ready to buy"
+    ],
+    "ai_response": "Hello Sophia Chen,\n\nThank you for reaching out to us regarding Nova Retail Brands's requirements. We would be delighted to demonstrate our platform and discuss tailored enterprise options for your team. Could you please share your availability for a brief 15-minute discovery session this week?\n\nBest regards,\nSales Engineering Team",
+    "status": "Qualified",
+    "created_at": "2026-11-17T10:25:17.200607",
+    "updated_at": "2026-11-17T10:25:17.219944"
+  },
+  {
+    "id": 5,
+    "name": "Carlos Gomez",
+    "email": "carlos.g@solardrive.es",
+    "phone_number": "+34-91-123-4567",
+    "company": "SolarDrive Energy",
+    "message": "Hi, we are researching AI automation tools for our customer support queue. How does your platform integrate with HubSpot and Zendesk? Can we start a 14-day trial?",
+    "classification": "Hot Lead",
+    "confidence_score": 0.92,
+    "business_intent": "SolarDrive Energy has high immediate purchase intent and requires priority sales contact for pricing or demo.",
+    "extracted_requirements": [
+      "Technical interest in how does",
+      "Technical interest in trial",
+      "Technical interest in support"
+    ],
+    "ai_response": "Hello Carlos Gomez,\n\nThank you for reaching out to us regarding SolarDrive Energy's requirements. We would be delighted to demonstrate our platform and discuss tailored enterprise options for your team. Could you please share your availability for a brief 15-minute discovery session this week?\n\nBest regards,\nSales Engineering Team",
+    "status": "Qualified",
+    "created_at": "2026-11-17T10:25:17.238403",
+    "updated_at": "2026-11-17T10:25:17.260665"
+  },
+  {
+    "id": 6,
+    "name": "Rachel Adams",
+    "email": "rachel@cleantech.org",
+    "phone_number": "+1-617-555-3211",
+    "company": "CleanTech Innovations",
+    "message": "Could you provide technical documentation on your webhook payloads and rate limits? We are evaluating automated lead scoring for next quarter.",
+    "classification": "Cold Lead",
+    "confidence_score": 0.7,
+    "business_intent": "General inquiry from CleanTech Innovations with limited immediate buying signals.",
+    "extracted_requirements": [
+      "General platform inquiry"
+    ],
+    "ai_response": "Hello Rachel Adams,\n\nThank you for reaching out. We have received your note regarding CleanTech Innovations. You can explore our knowledge base and self-service documentation at any time.\n\nBest regards,\nSupport Team",
+    "status": "Disqualified",
+    "created_at": "2026-11-17T10:25:17.279807",
+    "updated_at": "2026-11-17T10:25:17.301384"
+  },
+  {
+    "id": 7,
+    "name": "Arjun Rao",
+    "email": "arjun.rao@hyperbuild.co",
+    "phone_number": "+91-98765-43210",
+    "company": "HyperBuild Infra",
+    "message": "We'd like to understand how your Hermes agent integration handles multi-step tool calls. Do you have a whitepaper or case study on construction tech?",
+    "classification": "Warm Lead",
+    "confidence_score": 0.82,
+    "business_intent": "HyperBuild Infra is actively evaluating platform capabilities and exploring alignment.",
+    "extracted_requirements": [
+      "Technical interest in integration",
+      "Technical interest in whitepaper"
+    ],
+    "ai_response": "Hello Arjun Rao,\n\nThank you for contacting us from HyperBuild Infra. We appreciate your interest in our automation capabilities. Based on your message, we have attached our solution brief and integration documentation for your review. Let us know if you'd like to arrange a technical deep-dive!\n\nBest regards,\nCustomer Success Team",
+    "status": "Contacted",
+    "created_at": "2026-11-17T10:25:17.319235",
+    "updated_at": "2026-11-17T10:25:17.338931"
+  },
+  {
+    "id": 8,
+    "name": "Emily Watson",
+    "email": "ewatson@bluehorizon.net",
+    "phone_number": "+1-206-555-7489",
+    "company": "Blue Horizon Media",
+    "message": "Exploring options for our digital marketing agency. What are the key differentiators between your solution and Zapier or standard n8n workflows?",
+    "classification": "Warm Lead",
+    "confidence_score": 0.82,
+    "business_intent": "Blue Horizon Media is actively evaluating platform capabilities and exploring alignment.",
+    "extracted_requirements": [
+      "Technical interest in api"
+    ],
+    "ai_response": "Hello Emily Watson,\n\nThank you for contacting us from Blue Horizon Media. We appreciate your interest in our automation capabilities. Based on your message, we have attached our solution brief and integration documentation for your review. Let us know if you'd like to arrange a technical deep-dive!\n\nBest regards,\nCustomer Success Team",
+    "status": "Contacted",
+    "created_at": "2026-11-17T10:25:17.357066",
+    "updated_at": "2026-11-17T10:25:17.409449"
+  },
+  {
+    "id": 9,
+    "name": "Lukas Weber",
+    "email": "l.weber@bavaria-auto.de",
+    "phone_number": "+49-89-636-4820",
+    "company": "Bavaria Automotive Parts",
+    "message": "We are interested in automated lead classification for European distributors. Does your model support German language queries?",
+    "classification": "Warm Lead",
+    "confidence_score": 0.82,
+    "business_intent": "Bavaria Automotive Parts is actively evaluating platform capabilities and exploring alignment.",
+    "extracted_requirements": [
+      "Technical interest in support"
+    ],
+    "ai_response": "Hello Lukas Weber,\n\nThank you for contacting us from Bavaria Automotive Parts. We appreciate your interest in our automation capabilities. Based on your message, we have attached our solution brief and integration documentation for your review. Let us know if you'd like to arrange a technical deep-dive!\n\nBest regards,\nCustomer Success Team",
+    "status": "Contacted",
+    "created_at": "2026-11-17T10:25:17.431635",
+    "updated_at": "2026-11-17T10:25:17.454937"
+  },
+  {
+    "id": 10,
+    "name": "Fatima Al-Mansoor",
+    "email": "fatima@gulflogistics.ae",
+    "phone_number": "+971-4-321-7654",
+    "company": "Gulf Express Logistics",
+    "message": "Can you provide standard tier pricing sheets? We are currently gathering estimates for our mid-year planning committee.",
+    "classification": "Warm Lead",
+    "confidence_score": 0.82,
+    "business_intent": "Gulf Express Logistics is actively evaluating platform capabilities and exploring alignment.",
+    "extracted_requirements": [
+      "Technical interest in pricing"
+    ],
+    "ai_response": "Hello Fatima Al-Mansoor,\n\nThank you for contacting us from Gulf Express Logistics. We appreciate your interest in our automation capabilities. Based on your message, we have attached our solution brief and integration documentation for your review. Let us know if you'd like to arrange a technical deep-dive!\n\nBest regards,\nCustomer Success Team",
+    "status": "Contacted",
+    "created_at": "2026-11-17T10:25:17.472842",
+    "updated_at": "2026-11-17T10:25:17.493361"
+  },
+  {
+    "id": 11,
+    "name": "Kevin Brooks",
+    "email": "kbrooks892@gmail.com",
+    "phone_number": "+1-555-019-3388",
+    "company": "Freelance",
+    "message": "Hello, are you hiring junior prompt engineers or AI developers? I graduated last semester and attach my resume.",
+    "classification": "Cold Lead",
+    "confidence_score": 0.9,
+    "business_intent": "Low-priority, exploratory inquiry, or non-commercial solicitation from Freelance.",
+    "extracted_requirements": [
+      "Non-commercial inquiry / recruitment / solicitation"
+    ],
+    "ai_response": "Hello Kevin Brooks,\n\nThank you for reaching out. We have logged your submission. If this is regarding careers or non-sales partnerships, our operations team will review accordingly.\n\nBest regards,\nOperations Team",
+    "status": "Disqualified",
+    "created_at": "2026-11-17T10:25:17.512080",
+    "updated_at": "2026-11-17T10:25:17.533908"
+  },
+  {
+    "id": 12,
+    "name": "Spam Vendor Marketing",
+    "email": "leads@b2b-bulk-leads-promo.xyz",
+    "phone_number": "+1-800-555-0199",
+    "company": "B2B Lead Lists Pro",
+    "message": "Boost your outbound sales by 500% with our verified database of 50M CXO emails. Special discount today only $99.",
+    "classification": "Cold Lead",
+    "confidence_score": 0.9,
+    "business_intent": "Low-priority, exploratory inquiry, or non-commercial solicitation from B2B Lead Lists Pro.",
+    "extracted_requirements": [
+      "Non-commercial inquiry / recruitment / solicitation"
+    ],
+    "ai_response": "Hello Spam Vendor Marketing,\n\nThank you for reaching out. We have logged your submission. If this is regarding careers or non-sales partnerships, our operations team will review accordingly.\n\nBest regards,\nOperations Team",
+    "status": "Disqualified",
+    "created_at": "2026-11-17T10:25:17.550835",
+    "updated_at": "2026-11-17T10:25:17.572365"
+  },
+  {
+    "id": 13,
+    "name": "Timmy Johnson",
+    "email": "tjohnson@student.univ.edu",
+    "phone_number": "+1-555-908-1122",
+    "company": "University Student",
+    "message": "Hi, doing a class presentation on AI agents. Can you answer 5 questions for my homework assignment?",
+    "classification": "Cold Lead",
+    "confidence_score": 0.9,
+    "business_intent": "Low-priority, exploratory inquiry, or non-commercial solicitation from University Student.",
+    "extracted_requirements": [
+      "Non-commercial inquiry / recruitment / solicitation"
+    ],
+    "ai_response": "Hello Timmy Johnson,\n\nThank you for reaching out. We have logged your submission. If this is regarding careers or non-sales partnerships, our operations team will review accordingly.\n\nBest regards,\nOperations Team",
+    "status": "Disqualified",
+    "created_at": "2026-11-17T10:25:17.591181",
+    "updated_at": "2026-11-17T10:25:17.613616"
+  },
+  {
+    "id": 14,
+    "name": "Anonymous Inquiry",
+    "email": "info@randomdomain123.org",
+    "phone_number": "+1-555-000-1111",
+    "company": "N/A",
+    "message": "Test message to check if this contact form is working.",
+    "classification": "Cold Lead",
+    "confidence_score": 0.9,
+    "business_intent": "Low-priority, exploratory inquiry, or non-commercial solicitation from N/A.",
+    "extracted_requirements": [
+      "Non-commercial inquiry / recruitment / solicitation"
+    ],
+    "ai_response": "Hello Anonymous Inquiry,\n\nThank you for reaching out. We have logged your submission. If this is regarding careers or non-sales partnerships, our operations team will review accordingly.\n\nBest regards,\nOperations Team",
+    "status": "Disqualified",
+    "created_at": "2026-11-17T10:25:17.631813",
+    "updated_at": "2026-11-17T10:25:17.652075"
+  },
+  {
+    "id": 15,
+    "name": "SEO Outreach Specialist",
+    "email": "outreach@backlink-masters.co",
+    "phone_number": "+44-161-555-0123",
+    "company": "Backlink Masters",
+    "message": "We noticed your website ranking could improve. We offer guest post placements on DA 60+ websites starting at $50 per link.",
+    "classification": "Cold Lead",
+    "confidence_score": 0.9,
+    "business_intent": "Low-priority, exploratory inquiry, or non-commercial solicitation from Backlink Masters.",
+    "extracted_requirements": [
+      "Non-commercial inquiry / recruitment / solicitation"
+    ],
+    "ai_response": "Hello SEO Outreach Specialist,\n\nThank you for reaching out. We have logged your submission. If this is regarding careers or non-sales partnerships, our operations team will review accordingly.\n\nBest regards,\nOperations Team",
+    "status": "Disqualified",
+    "created_at": "2026-11-17T10:25:17.671655",
+    "updated_at": "2026-11-17T10:25:17.692513"
+  }
+]
