@@ -108,6 +108,7 @@ python backend/server.py
 ## 📊 Task 5: Gamma AI Presentation & Reporting
 
 The executive presentation and intelligence report is available in multiple formats:
+- **PowerPoint Presentation (.pptx):** [`gamma/ai_lead_management_presentation.pptx`](gamma/ai_lead_management_presentation.pptx)
 - **Full Report (Markdown):** [`gamma/GAMMA_REPORT.md`](gamma/GAMMA_REPORT.md)
 - **Interactive Slide Deck (HTML):** [`gamma/presentation.html`](gamma/presentation.html)
 - **Plain Text / Prompt for Gamma.app:** [`gamma/gamma_presentation_content.txt`](gamma/gamma_presentation_content.txt) & [`gamma/gamma_presentation_prompt.md`](gamma/gamma_presentation_prompt.md)
