@@ -107,12 +107,11 @@ python backend/server.py
 
 ## 📊 Task 5: Gamma AI Presentation & Reporting
 
-The executive presentation and intelligence report is available in multiple formats:
-- **PowerPoint Presentation (.pptx):** [`gamma/ai_lead_management_presentation.pptx`](gamma/ai_lead_management_presentation.pptx)
-- **Full Report (Markdown):** [`gamma/GAMMA_REPORT.md`](gamma/GAMMA_REPORT.md)
-- **Interactive Slide Deck (HTML):** [`gamma/presentation.html`](gamma/presentation.html)
-- **Plain Text / Prompt for Gamma.app:** [`gamma/gamma_presentation_content.txt`](gamma/gamma_presentation_content.txt) & [`gamma/gamma_presentation_prompt.md`](gamma/gamma_presentation_prompt.md)
-- **Real Test Dataset (15 B2B Leads):** [`gamma/sample_lead_data.json`](gamma/sample_lead_data.json)
+- **🎯 Primary Deliverable (PowerPoint Deck):** [`gamma/ai_lead_management_presentation.pptx`](gamma/ai_lead_management_presentation.pptx) *(Generated using Gamma AI)*
+- **📖 In-Browser GitHub Report:** [`gamma/EXECUTIVE_REPORT.md`](gamma/EXECUTIVE_REPORT.md) *(Complete readable summary with tables and scorecard)*
+- **🌐 Interactive Web Slide Deck:** [`gamma/presentation.html`](gamma/presentation.html) *(Opens directly in any web browser)*
+- **📋 Real Test Dataset (15 B2B Leads):** [`gamma/sample_lead_data.json`](gamma/sample_lead_data.json)
+- **📝 Gamma Prompt & Export Content:** [`gamma/gamma_presentation_content.txt`](gamma/gamma_presentation_content.txt) & [`gamma/gamma_presentation_prompt.md`](gamma/gamma_presentation_prompt.md)
 
 ### Pipeline Performance Scorecard
 | Metric | Measured Result | Operational Impact |

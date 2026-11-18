@@ -1,10 +1,12 @@
 # AI-Powered Lead Management & Automation System
-## Executive Lead Intelligence & Performance Report (Task 5: Gamma AI)
+## Executive Lead Intelligence & Performance Report
+*(Executive Report & Written Companion to the Gamma AI Presentation Deck)*
 
 **Presented By:** AI Automation & Integration Developer  
 **Company:** Maxsource Technologies Assessment  
 **Platform:** Ollama AI Triage & Hermes Agent Pipeline  
 **Scope:** 15 B2B Inbound Leads — Full Cycle Analysis  
+**Slide Deck:** [`ai_lead_management_presentation.pptx`](ai_lead_management_presentation.pptx) (Created via Gamma AI)  
 
 ---
 
